@@ -1,0 +1,15 @@
+#include "../header.h"
+
+IDI_ICON ICON "main.ico"
+
+IDM_MENU MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Exit", IDM_EXIT
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "About ...", IDM_ABOUT
+    END
+END
