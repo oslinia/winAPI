@@ -1,0 +1,18 @@
+#include "../header.h"
+
+IDI_ICON ICON "win.ico"
+
+IDM_MENU MENU
+{
+    POPUP "File"
+    {
+        MENUITEM "Checked",  IDM_FILE_CHECK, CHECKED
+        POPUP "Options"
+        {
+            MENUITEM "Item", IDM_FILE_ITEM
+        }
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",     IDM_FILE_EXIT
+    }
+    MENUITEM "About",        IDM_ABOUT
+}
