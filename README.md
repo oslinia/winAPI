@@ -1,3 +1,4 @@
 ### winAPI
 
-- <strong>HelloWorld</strong> - an application that has a frame counter, a menu, and a message box.
+- <strong>CollectMenu</strong> - Windowed application with frame counter, menu built on functions, modal message window.
+- <strong>MenuRc</strong> - Windowed application with frame counter, resource-based menu and modal message box.
